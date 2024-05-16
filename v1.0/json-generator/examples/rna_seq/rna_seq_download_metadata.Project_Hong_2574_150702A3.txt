@@ -1,0 +1,3 @@
+Sequencing core user	Sequencing core project	Sequencing core password	Sequencing core library name	Barcode	Name	Iter num	Paired-end or single-end	With ercc spike-in	Strand specificity	Genome
+hong_2574	Project_Hong_2574_150702A3	mjmN1EDH5AD7	Sample-LH-L1	CGTGAT	t1_rep1	iter0	pe	False	stranded	mm10
+hong_2574	Project_Hong_2574_150702A3	mjmN1EDH5AD7	Sample-LH-L1	ACATCG	t2_rep1	iter0	pe	True	unstranded	mm10
