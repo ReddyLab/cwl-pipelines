@@ -9,7 +9,7 @@
 source /data/reddylab/software/anaconda/bin/activate root
 export PATH="$HOME/bin/:/data/reddylab/software/FastQC:/data/reddylab/software/anaconda/bin/cwltool:$PATH"
 
-srun cwltool --preserve-environment PATH --outdir ~/data-tmp/fastq-out --no-container ~/workspace/GGR-cwl/ChIP-seq_pipeline/01-qc.cwl  ~/workspace/GGR-cwl/ChIP-seq_pipeline/01-qc.json
+srun cwltool --preserve-environment PATH --outdir ~/data-tmp/fastq-out --no-container ~/workspace/cwl-pipelines/ChIP-seq_pipeline/01-qc.cwl  ~/workspace/cwl-pipelines/ChIP-seq_pipeline/01-qc.json
 
 #FASTQ_FILE1=${HOME}/data-tmp/TEST.t00_rep1.fastq
 #FASTQ_FILE2=${HOME}/data-tmp/TEST.t05_rep1.fastq
