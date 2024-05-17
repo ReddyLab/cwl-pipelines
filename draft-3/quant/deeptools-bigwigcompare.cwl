@@ -1,7 +1,7 @@
 #!/usr/bin/env cwl-runner
 # Maintainer: alejandro.barrera@duke.edu
 # Partially Auto generated with clihp (https://github.com/portah/clihp, developed by Andrey.Kartashov@cchmc.org)
-# Developed for GGR project (https://github.com/Duke-GCB/GGR-cwl)
+# Developed for GGR project (https://github.com/ReddyLab/cwl-pipelines)
 cwlVersion: 'cwl:draft-3'
 class: CommandLineTool
 hints:

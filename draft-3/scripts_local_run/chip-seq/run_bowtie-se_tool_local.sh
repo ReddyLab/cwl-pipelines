@@ -27,7 +27,7 @@ cwl-runner \
   --outdir=$OUTDIR \
   --tmp-outdir-prefix=$TMP_OUTDIR_PREFIX \
   --tmpdir-prefix=$TMPDIR_PREFIX \
-  /Users/abarrera/workspace/GGR-cwl/bowtie/bowtie-se.cwl \
+  /Users/abarrera/workspace/cwl-pipelines/bowtie/bowtie-se.cwl \
   --threads=1 \
   --genome_ref_index_files ${GENOME_REF_IDX1} \
   --genome_ref_index_files ${GENOME_REF_IDX2} \
